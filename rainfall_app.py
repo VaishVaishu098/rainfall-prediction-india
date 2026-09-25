@@ -89,7 +89,7 @@ st.markdown("""
 def load_data():
 
     historical_file = "rainfall in india 1901-2015.csv"
-    district_file = "district_wise_rainfall_normal[1].csv"
+    district_file = "district_wise_rainfall_normal.csv"
 
     historical = pd.read_csv(historical_file)
     district = pd.read_csv(district_file)
